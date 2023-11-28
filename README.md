@@ -63,26 +63,15 @@ A common architecture for image classification tasks is InceptionV3, which has b
 
 ## RESULTS
 
-| Tables        | Are           | Cool  |
+### Comparisons:
+
+| Models        | Accuracy(in %)|F1 Score| 
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| CNN	        | 95.85		| 0.959 |
+| Efficient B0  | 99.01	        | 0.963 |
+| ResNet50      | 76.87         | 0.768 |
+|Inception V3   | 92.12         |  0.92 |										
+										
 
-Comparisons:
-
-Models	Accuracy (in %)	Precision	Recall	F1 Score
-CNN	95.85	0.959	0.959	0.959
-Efficient B0	99.01	0.963	0.963	0.963
-ResNet50	76.87	0.768	0.768	0.768
-Inception V3	92.12	0.92	0.92	0.92
-Table 1: Algorithms along with performance metrics
-
-Models	Accuracy (in %)
-	Class 1	Class 2	Class 3
-CNN	93.14	99.64	95.05
-Efficient B0	90.63	99.91	98.76
-Inception V3	86.94	96.89	92.31
-ResNet50	58.85	92.88	79.84
 
 
