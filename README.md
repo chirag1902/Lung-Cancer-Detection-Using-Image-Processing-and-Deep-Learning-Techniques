@@ -63,6 +63,12 @@ A common architecture for image classification tasks is InceptionV3, which has b
 
 ## RESULTS
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 Comparisons:
 
 Models	Accuracy (in %)	Precision	Recall	F1 Score
