@@ -71,7 +71,12 @@ A common architecture for image classification tasks is InceptionV3, which has b
 | Efficient B0  | 99.01	        | 0.963 |
 | ResNet50      | 76.87         | 0.768 |
 |Inception V3   | 92.12         |  0.92 |										
-										
+
+
+ ## CONCLUSION
+
+This study presented an approach for classifying whether a patient is affected by Lung Cancer along with the severity of the diseases from scans of the patients’ blood by using deep learning algorithms. The dataset utilised in the study was obtained from a Kaggle. Various digital image processing techniques like color conversion, image resizing, color conversion and median filtering were used to enhance the images of the dataset before feeding it to a model. The deep learning algorithms utilised were: CNN, Efficient B0, Inception V3 and ResNet50. Based on the research results and comparisons between the performance metrics, it was determined that the learning method, Efficient B0 classifier, has outperformed the other algorithms, with an accuracy of 99.01%, a precision rate of 0.963, a recall of 0.963, and an F1 - score of 0.963. The study also indicated that the CNN performed the best for classifying the samples of Class 1 (Adenocarcinoma) with an accuracy of 93 percent and Efficient B0 classified Class 2 (Benign) and Class 3 (Squamous cell carcinoma) best with an accuracy of 99.91 and 98.76 percent. In future, additional research can be done on finding more suitable processing techniques or by creating custom classifiers for achieving a higher accuracy in predicting lung cancer. It can also be focused on classifying individual classes with high accuracy and then combining the best performing models to achieve a better overall accuracy in classifying the target outcome.
+
 
 
 
