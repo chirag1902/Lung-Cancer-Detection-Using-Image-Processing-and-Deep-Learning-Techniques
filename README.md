@@ -1,3 +1,4 @@
 # Lung-Cancer-Detection-Using-Image-Processing-and-Deep-Learning-Techniques
 This project aims to create a model using deep learning that can detect lung cancer at an earlier stage
-Abstract
+## Abstract
+This project aims to create a model using deep learning that can detect lung cancer at an earlier stage. A Convolutional Neural Network architecture is used to analyse the medical images of the lungs to classify them as malignant or benign.   The dataset used in the study comprises CT scan images of lung nodules from the publicly accessible LIDC-IDRI dataset. Transfer learning is used with the previously taught VGG-16 architecture to train the CNN model. The accuracy, precision, recall, and F1 score are some of the standard metrics utilised to evaluate the suggested model's performance. The findings show that the proposed model is capable of high accuracy and outperforms the existing methods that are considered to be state-of-the-art. The model that has been proposed has the potential to be of assistance to radiologists in the process of the early detection of lung cancer and to enhance the results for patients.
